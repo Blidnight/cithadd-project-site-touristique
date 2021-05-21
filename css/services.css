@@ -1,0 +1,78 @@
+.services-banner {
+  min-height: 230px;
+  max-height: 500px;
+  height: 45vh;
+  display: flex;
+  align-items: center;
+  background-color: #ea571d;
+}
+
+.banner-message {
+  color: white;
+  width: 80%;
+}
+
+.banner-message h2 {
+  margin: 0px;
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+}
+
+.banner-message p {
+  font-weight: 300;
+  line-height: 1.6em;
+}
+
+section.services {
+  padding-bottom: 40px;
+}
+
+section.services .container h2 {
+  font-weight: 400;
+  color: #4d8a55;
+}
+
+.cards {
+  padding-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.service-card {
+  width: 260px;
+  min-height: 150px;
+}
+
+.service-card:hover {
+  background-color: #eee;
+}
+
+.service-card h3,
+.service-card h4 {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+}
+
+.service-card h3 {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.service-card h4 {
+  font-weight: 300;
+  font-size: 13px;
+}
+
+.service-card .icon img {
+  width: 70px;
+}
+
+.service-card .icon {
+  padding: 20px 0px;
+}
+
+.service-information {
+  padding: 5px;
+}

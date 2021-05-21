@@ -1,0 +1,78 @@
+section.accueil {
+  position: relative;
+  margin: 0 auto;
+  height: 80vh;
+  background-image: url(../image/citadelle.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+}
+
+section.accueil h1 {
+  padding: 0px;
+  margin: 0px;
+}
+
+section.accueil .transparent-background {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 20;
+}
+
+section.accueil .container {
+  height: 450px;
+  position: relative;
+  z-index: 25;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+section.accueil .container .dialog {
+  width: 450px;
+  height: 450px;
+}
+
+section.accueil .container .dialog-image {
+  width: 475px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+section.accueil .container .dialog-image img {
+  width: 100%;
+  border: 2px solid white;
+}
+
+section.accueil .container .dialog h2 {
+  margin: 0px;
+  padding-top: 40px;
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+}
+
+section.accueil .container .dialog p {
+  font-weight: 300;
+  line-height: 1.65em;
+}
+
+a.service-souscription {
+  display: inline-block;
+  padding: 20px 100px;
+  background-color: #ea571d;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+a.service-souscription:hover {
+  background-color: white;
+  color: #ea571d;
+}

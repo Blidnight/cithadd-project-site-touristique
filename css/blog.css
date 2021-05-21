@@ -1,0 +1,112 @@
+section.blog {
+  margin-top: 20px;
+  min-height: 80vh;
+  font-family: "Poppins", sans-serif;
+}
+
+section.blog .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+.articles {
+  width: 75%;
+}
+
+.thread {
+  width: 20%;
+}
+
+.topics {
+  width: 100%;
+}
+
+.article {
+  width: 100%;
+  height: 200px;
+  box-shadow: 0px 0px 3px gray;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.article-information {
+  display: flex;
+  height: 100%;
+  position: relative;
+}
+
+.article:hover {
+  background-color: #eee;
+}
+
+.article h2 {
+  margin: 0;
+  padding: 0;
+  font-weight: 200;
+}
+
+.article-image {
+  width: 25%;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.article-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.article-description {
+  width: 75%;
+  height: 100%;
+  padding: 10px;
+}
+
+.article-button {
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+  width: 150px;
+  text-transform: uppercase;
+  color: white;
+  background-color: #004d5a;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.topics h2 {
+  margin: 0;
+  text-align: center;
+  font-weight: 400;
+  border-bottom: 1px solid #dadada;
+}
+
+.topics {
+  box-shadow: 0px 0px 4px #878787;
+  align-self: stretch;
+  border-radius: 10px;
+}
+
+.topics ul li {
+  list-style: none;
+  padding: 10px 0px;
+  text-indent: 10px;
+  border-bottom: 1px solid #dadada;
+}
+
+.topics ul li:hover {
+  background-color: #eee;
+}
+
+.topics ul li:last-child {
+  border-bottom: none;
+}
+
+.topics ul {
+  margin: 0;
+  padding: 0px;
+}

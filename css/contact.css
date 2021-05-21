@@ -1,0 +1,101 @@
+section.contact {
+  height: 80vh;
+  background-color: #004d5a;
+}
+
+section.contact .container {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.contact-information {
+  width: 50%;
+  padding: 20px 0px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.contact-information-top {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+.contact-information-top h1 {
+  margin: 0;
+
+  font-weight: 600;
+}
+
+.contact-information p {
+  font-weight: 200;
+}
+
+.contact-alternatives-options {
+  padding-top: 20px;
+  margin-top: 40px;
+}
+
+.contact-option {
+  display: flex;
+  text-indent: 15px;
+}
+
+.contact-option img {
+  width: 40px;
+}
+
+.contact-form {
+  width: 40%;
+  height: 430px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.contact-form form {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+  padding: 20px;
+  color: #004d5a;
+}
+
+.contact-form form input#submit {
+  position: absolute;
+  bottom: 48px;
+  width: 200px;
+  height: 50px;
+  background-color: #004d5a;
+  color: white;
+  right: 20px;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 10px;
+}
+
+.contact-fields input {
+  width: 100%;
+  height: 30px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #eee;
+}
+
+.contact-fields textarea {
+  width: 100%;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  background-color: #eee;
+  margin-top: 10px;
+}
+
+.contact-fields label {
+  text-indent: 5px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
